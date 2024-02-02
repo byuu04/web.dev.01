@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Web-Page</title>
+ <!-- css -->
+ <style>
+    body {
+        margin: 0;
+        background-color: #E1F0DA;
+        font-family: sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #333;
+    }
+    
+    .header {
+        background-color: #99BC85;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    li {
+        display: inline;
+        padding: 20px;
+
+    }
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    
+    .nav a {
+        text-decoration: none;
+        color: #D4E7C5;
+        margin: 0 10px;
+    }
+    
+    .nav a:hover {
+        color: #fff;
+    }
+    
+    .name {
+        margin: 20px;
+        text-align: center;
+    }
+    
+    .div {
+        margin: 20px;
+        text-align: center;
+    }
+    
+    .div img {
+        width: 100%;
+        max-width: 200px; /* Adjust as needed */
+        height: auto;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+    
+    .div p {
+        font-size: 18px;
+        color: #000100;
+        font-family: cursive;
+    }
+    
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+    
+    .btnfb {
+        background-color: #1877f2;
+        text-decoration: none;
+    }
+    
+    .btnig {
+        background-color: #000000;
+        text-decoration: none;
+    }
+    
+    .btn:hover {
+        opacity: 0.8;
+    }
+    @media screen and (max-width: 600px) {
+        .nav {
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        .nav a {
+            margin: 10px 0;
+        }
+    
+        .div {
+            flex-direction: column;
+        }
+    
+        .div img {
+            margin-bottom: 10px;
+        }
+    
+        .divbtn button {
+            width: 100%;
+            margin-top: 10px;
+        }
+    }
+    </style>
+</head>
+<body>
+        <div class="header">
+            <nav class="nav">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class="name">
+            <h2>NIKKERSON J. DOYDORA</h2>
+        </div>
+        <div class="div">
+            <img src="https://scontent.fceb6-1.fna.fbcdn.net/v/t39.30808-6/395412199_987723775658781_5917631637563029396_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9c7eae&_nc_eui2=AeHEOo_rvxFTOB4Dj5AClku7GKFFefN3nB0YoUV583ecHVMmixSD3-35XedajXblBcLHffYQ2Tj9l4K6tBmyGw2L&_nc_ohc=M8-dHL9ieSQAX9LEyjH&_nc_ht=scontent.fceb6-1.fna&oh=00_AfCAOZYAMUqXRTr6i8CYKcrnwne8bq3rnW5FyXv-tinIXA&oe=65C18FA0" alt="">
+            <p>3rd year <b>BSCS</b> Student at <b>BOHOL ISLAND STATE UNIVERSITY - Candijay Campus.</b>
+                <br>
+                <br>
+                <a href="https://www.facebook.com/niks6e8w9q" target="_blank" class="btn btnfb">Facebook</a>
+                <a href="https://github.com/byuu04?fbclid=IwAR2YzUVa8U8LYEnKad3hm01MZtuuzEq8ddFwUCDvlHSdqAZQxFKSsIUYcS8" target="_blank" class="btn btnig">Github</a>
+            </p>         
+        </div>
+        <div class="divbtn">
+        </div>
+</body>
+</html>
